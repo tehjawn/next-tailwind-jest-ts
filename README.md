@@ -1,3 +1,10 @@
+# Next.js + Tailwind + Jest + TypeScript Tutorial Project
+
+> This project follows the tutorial by Antonio Lo Fiego here:
+> https://blog.antoniolofiego.com/setting-up-a-nextjs-application-with-typescript-jit-tailwind-css-and-jestreact-testing-library
+
+---
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
