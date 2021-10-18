@@ -3,6 +3,9 @@ import { Fragment } from "react";
 import { Popover, Transition } from "@headlessui/react";
 import { MenuIcon, XIcon } from "@heroicons/react/outline";
 
+import Link from "next/link";
+import CtaButton from "@components/ctaButton";
+
 const navigation = [
   { name: "Product", href: "#" },
   { name: "Features", href: "#" },
@@ -13,6 +16,13 @@ const navigation = [
 export default function Example() {
   return (
     <div className="relative bg-white overflow-hidden">
+      <div className="p-4">
+        <Link href="/">
+          <a className="inline-block">
+            <CtaButton color="yellow">&lt; Back</CtaButton>
+          </a>
+        </Link>
+      </div>
       <div className="max-w-7xl mx-auto">
         <div className="relative z-10 pb-8 bg-white sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32">
           <svg
